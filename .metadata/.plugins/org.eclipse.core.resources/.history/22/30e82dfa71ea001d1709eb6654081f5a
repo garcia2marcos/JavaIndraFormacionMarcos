@@ -64,18 +64,12 @@ public class Program {
 		
 		//Convertir un String a un numero decimal variable float
 		String CambioDecimal = "50.45";
-		double decimal= 0;
+		double decimal = 2.45;
 		
 		decimal = Double.parseDouble(CambioDecimal);
 		System.out.println(CambioDecimal);
 		
-		try {
-			CambioDecimal ="50dos"; //salta excepcion
-			decimal = Integer.parseInt(enLetras);
-		}catch(NumberFormatException ex){ //Este catch recoge los errores de conversion 
-			//}catch(Exception ex) este catch recoge todos los errores{
-			System.out.println("No se pudo hacer la conversion de "+ CambioDecimal + "a int");
-		}
+		
 		
 		
 	}

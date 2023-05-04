@@ -44,38 +44,11 @@ public class Program {
 		System.out.println("El numero en letras es: "+ enLetras);
 		System.out.printf("El numero en letras es: %s", enLetras);
 		System.out.println();
-		System.out.printf("El numero en letras es: %d", numero);
-		System.out.println();
-		
-		enLetras ="22";
-		numero = Integer.parseInt(enLetras); //Conversion explicita de string a int
-		System.out.println(enLetras);
 		
 		
-		//CAPTURA DE EXCEPCIONES
-		try {
-			enLetras ="22dos"; //salta excepcion
-			numero = Integer.parseInt(enLetras);
-		}catch(NumberFormatException ex){ //Este catch recoge los errores de conversion 
-			//}catch(Exception ex) este catch recoge todos los errores{
-			System.out.println("No se pudo hacer la conversion de "+ enLetras + "a int");
-		}
+				
 		
 		
-		//Convertir un String a un numero decimal variable float
-		String CambioDecimal = "50.45";
-		double decimal= 0;
-		
-		decimal = Double.parseDouble(CambioDecimal);
-		System.out.println(CambioDecimal);
-		
-		try {
-			CambioDecimal ="50dos"; //salta excepcion
-			decimal = Integer.parseInt(enLetras);
-		}catch(NumberFormatException ex){ //Este catch recoge los errores de conversion 
-			//}catch(Exception ex) este catch recoge todos los errores{
-			System.out.println("No se pudo hacer la conversion de "+ CambioDecimal + "a int");
-		}
 		
 		
 	}

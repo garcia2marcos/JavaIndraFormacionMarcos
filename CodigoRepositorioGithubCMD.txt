@@ -1,0 +1,230 @@
+Microsoft Windows [Versión 10.0.22621.1555]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\magarciaga>C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava
+"C:\Users\magarciaga\OneDrive" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\magarciaga>cd "C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava\"
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>dir
+ El volumen de la unidad C es OSDisk
+ El número de serie del volumen es: 4672-6F55
+
+ Directorio de C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava
+
+04/05/2023  10:15    <DIR>          .
+04/05/2023  10:03    <DIR>          ..
+04/05/2023  10:03    <DIR>          .metadata
+04/05/2023  10:15    <DIR>          HolaMundo
+               0 archivos              0 bytes
+               4 dirs  444.911.157.248 bytes libres
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git init
+Initialized empty Git repository in C:/Users/magarciaga/OneDrive - Indra/Escritorio/Talent Camp 2023/FormacionJava/.git/
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git add *
+warning: in the working copy of '.metadata/.log', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .metadata/.lock
+        new file:   .metadata/.log
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.history/5f/50f5bc5654ea001d1e88acb9588593ed
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.history/74/a069873555ea001d1e88acb9588593ed
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f5/c0b3189455ea001d1e88acb9588593ed
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.indexes/af/history.index
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.indexes/e4/history.index
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.markers
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/org.eclipse.jdt.core/state.dat
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+        new file:   .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+        new file:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs
+        new file:   .metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch
+        new file:   .metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+        new file:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+        new file:   .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+        new file:   .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/1805125760.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/3251249088.index
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+        new file:   .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+        new file:   .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+        new file:   .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+        new file:   .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+        new file:   .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+        new file:   .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.jst.j2ee.ui/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+        new file:   .metadata/.plugins/org.eclipse.m2e.logback/0.log
+        new file:   .metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
+        new file:   .metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+        new file:   .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+        new file:   .metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.ui.intro/introstate
+        new file:   .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+        new file:   .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+        new file:   .metadata/version.ini
+        new file:   HolaMundo/.classpath
+        new file:   HolaMundo/.project
+        new file:   HolaMundo/.settings/org.eclipse.core.resources.prefs
+        new file:   HolaMundo/.settings/org.eclipse.jdt.core.prefs
+        new file:   HolaMundo/bin/Program.class
+        new file:   HolaMundo/src/Program.java
+
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git commit -m"Creo el repo
+con el primer proyecto"
+[master (root-commit) 50ea4f1] Creo el repo con el primer proyecto
+ Committer: Garcia Garcia <magarciaga@indra.es>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 73 files changed, 3715 insertions(+)
+ create mode 100644 .metadata/.lock
+ create mode 100644 .metadata/.log
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/5f/50f5bc5654ea001d1e88acb9588593ed
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/74/a069873555ea001d1e88acb9588593ed
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.history/f5/c0b3189455ea001d1e88acb9588593ed
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.indexes/af/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.indexes/e4/history.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/.markers
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.projects/HolaMundo/org.eclipse.jdt.core/state.dat
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+ create mode 100644 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.workbench.renderers.swt.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.urischeme.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.ws.service.policy.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.core/.launches/Program.launch
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+ create mode 100644 .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project
+ create mode 100644 .metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1805125760.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/3251249088.index
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.launching/.install.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.jst.j2ee.ui/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.logback/0.log
+ create mode 100644 .metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.oomph.setup/workspace.setup
+ create mode 100644 .metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+ create mode 100644 .metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.intro/introstate
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+ create mode 100644 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+ create mode 100644 .metadata/version.ini
+ create mode 100644 HolaMundo/.classpath
+ create mode 100644 HolaMundo/.project
+ create mode 100644 HolaMundo/.settings/org.eclipse.core.resources.prefs
+ create mode 100644 HolaMundo/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 HolaMundo/bin/Program.class
+ create mode 100644 HolaMundo/src/Program.java
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git remote add origin https://github.com/garcia2marcos/JavaIndraFormacionMarcos.git
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/garcia2marcos/JavaIndraFormacionMarcos.git'
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git branch -M main
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 113, done.
+Counting objects: 100% (113/113), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (92/92), done.
+Writing objects: 100% (113/113), 14.55 MiB | 5.60 MiB/s, done.
+Total 113 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/garcia2marcos/JavaIndraFormacionMarcos.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava>
