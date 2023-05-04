@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+C:\Users\magarciaga\OneDrive - Indra\Escritorio\Talent Camp 2023\FormacionJava\.metadata\.plugins\org.eclipse.jdt.core
+1805125760.index
+1865797976.index
+3251249088.index
